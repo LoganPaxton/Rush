@@ -1,1 +1,66 @@
+<html>
+  <head>
+    <title>Google Sign-In</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="public/styles.css">
+  </head>
+  <h1>Please sign into your Google account to continue.</h1>
+  <br>
+  <form action="/main.html">
+    <label for="Email">Email</label>
+    <br>
+    <input type="text" id="email" name="email">
+    <br>
+    <label for="Pass">Password</label>
+    <br>
+    <input type="password" id="pass" name="pass">
+    <br>
+    <br>
+    <input type="submit" value="Sign In">
+  </form>
+  <style>
+    h1 {
+      font-family: Arial;
+      position: static;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      white-space: nowrap;
+    }
 
+    input[type=text] {
+      position: absolute;
+      left: 40%;
+      width: 200px;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+
+    input[type=password] {
+      position: absolute;
+      left: 40%;
+      width: 200px;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+
+    label {
+      position: absolute;
+      left: 40%;
+      font-family: Arial;
+      font-weight: 400;
+    }
+
+    input[type=submit] {
+      position: absolute;
+      left: 42%;
+
+      width: 150px;
+      height: 25px;
+      border: 2px solid #0154da;
+      border-radius: 4px;
+      background: #0055ff;
+      color: white;
+    }
+  </style>
+</html>
