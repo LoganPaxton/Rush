@@ -1,0 +1,9 @@
+# SERVER CONFIG #
+server:
+ hostname: '127.0.0.1'
+ port: 8080
+
+# MESSAGE CONFIG #
+log:
+ serverStart: 'Server running at'
+ welcomeMessage: ''
