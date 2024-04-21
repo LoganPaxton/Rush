@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="script.js" defer></script>
+  </head>
+  <p>Redirecting to google.com</p>
+  <script>
+    window.onload = function() {
+      const { email, password } = readURL()
+      console.log(`Email: ${email}`)
+      console.log(`Password: ${password}`)
+    }
+    if (email !== "" && password !== "") {
+      window.location.href = 'https://www.google.com'
+    } else {
+      window.location.href = '/index.html'
+    }
+  </script>
+
+</html>
