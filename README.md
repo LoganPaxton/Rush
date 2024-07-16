@@ -3,6 +3,9 @@ Rush is a new project I've started to work on. Rush is made to steal credentials
 
 **THE AUTHOR IS NOT LIABLE FOR ANYTHING THAT COULD HAPPEN WHILE USING THIS SOFTWARE (Rush)**
 
+>[!IMPORTANT]
+>This repository is now archived, which mean I will not be updating it anymore. If someone else would like to maintain it, feel free.
+
 ## Documentation
 ### Download
 Before you download just note this will only work on Linux systems (Ex. Kali, Unbutu, Debain)
